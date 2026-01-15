@@ -4,8 +4,6 @@
 This Retrieval Augumented Generation chatbot is based on Langgraph orchestration workflow using Pinecone vector database,OpenAI API key and streamlit.
 The user can upload a single document or a chunk of text in a single session and the workflow retrives the contextual data based on user's query and returns the response along with the citations.The user can also ask several follow-up questions for the uploaded document.<br>
 
-#### Demo Video: 
-
 ## Architecture Overview
 With the user uploading a document or a textual excerpt in the text box and asking his query, the RAG workflow initiates with the document or the text being passed for loading,chunking indexing and being stored as embeddings in the vector database(Pinecone).
 #### Core Components:

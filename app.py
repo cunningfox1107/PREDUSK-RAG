@@ -8,11 +8,8 @@ from langchain_core.messages import HumanMessage
 
 from backend import workflow  
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s|%(levelname)s|FRONTEND|%(message)s"
-)
 logger = logging.getLogger("FRONTEND")
+logger.setLevel(logging.INFO)
 
 st.set_page_config(
     page_title="RAG Chatbot",
@@ -184,7 +181,7 @@ if query:
             answer_text = answer_block.get("Answer", "No answer returned.")
             citations = answer_block.get("Citations", [])
 
-            context_docs = answer_block.get("context", "")
+            context_docs = answer_block.get("context", [])
 
             st.markdown("### 🧠 Answer")
             st.markdown(answer_text)

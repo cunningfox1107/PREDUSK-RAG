@@ -10,3 +10,6 @@ langchain_pinecone
 pyreadline3
 langchain_openai
 streamlit
+tiktoken
+pypdf
+openai

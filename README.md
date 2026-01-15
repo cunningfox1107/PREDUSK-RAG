@@ -115,19 +115,19 @@ Enabled natural-language queries over unstructured resume data
 ### Questions and answers
 - Q1 What is the name of the project?
   - Answer: The name of the project is the Smart Resume Analyzer [2]<br>
-    Citations: [2] source:pasted text,section:unknown'
+    Citations: [2] source:pasted text
 <br><br>
 - Q2 what is the file format uploaded
    - Answer: The uploaded file format is PDF [2].<br>
-     Citations:  [2] source:pasted text,section:unknown'
+     Citations:  [2] source:pasted text
 - Q3 what is the database used to store the vectors
     - Answer: The database used to store the vectors is Pinecone [1].<br>
-      Citations: [1] source:pasted text,section:unknown'
+      Citations: [1] source:pasted text
 - Q4 what is the package used for natural entity recognition of the documents
    - Answer: Sorry, I don't know the answer based on the provided documents.
 - Q5 What is the main purpose of the Smart Resume Analyzer?
     - Answer: The main purpose of the Smart Resume Analyzer is to automate resume screening and   candidate evaluation using AI technology, specifically by applying Natural Language Processing (NLP) techniques to enhance recruitment workflows [1].<br>
-    Citations: [1] source:pasted_text section:unknown
+    Citations: [1] source:pasted_text
 
 ##### Performance 
 As we can see from the golden set, the chatbot performs decently on the provided excerpt with being able to provide 4 out of 5 right answers.

@@ -75,10 +75,10 @@ This helps the llm to remember all the previous conversations.
 - Uploading multiple documents per chat session would improve the efficiency and the utility of the chatbot.
 
 ## RAG Evaluation 
-### To validate the correctness ,and robustness of the system, a golden dataset of questions and answers is used.
+### To validate the correctness ,and robustness of the system, a golden dataset of questions and answers is used on a excerpt uploaded below.
 
-#### Knowledge excerpt uploaded on the chatbot
-
+### Knowledge excerpt uploaded on the chatbot
+"""
 Project: Smart Resume Analyzer
 <br><br>
 The Smart Resume Analyzer is an AI-powered system designed to automate resume screening and candidate evaluation. The project was developed as part of a capstone initiative focused on applying Natural Language Processing (NLP) techniques to real-world recruitment workflows.
@@ -111,7 +111,8 @@ Improved consistency in candidate shortlisting
 <br><br>
 Enabled natural-language queries over unstructured resume data
 <br><br>
-
+"""
+<br>
 ### Questions and answers
 - Q1 What is the name of the project?
   - Answer: The name of the project is the Smart Resume Analyzer [2]<br>

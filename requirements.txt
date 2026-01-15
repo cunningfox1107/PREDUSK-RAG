@@ -1,0 +1,12 @@
+langchain
+langchain_community
+langgraph
+python-dotenv
+streamlit
+cohere
+langchain-cohere
+pinecone
+langchain_pinecone
+pyreadline3
+langchain_openai
+streamlit
